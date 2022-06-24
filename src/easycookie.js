@@ -9,7 +9,6 @@ function eCI(cmd, arg1 = "", arg2 = "") {
     function addCookie() {
         name = arg1
         val = arg2
-        console.warn(name + " " + val)
         if (!name == "" || !name == null) {
             if (!val == "" || !val == null) {
                 let usrcookie = getCookie(get = 1);
@@ -32,7 +31,6 @@ function eCI(cmd, arg1 = "", arg2 = "") {
     }
     function getCookie(get = 0) {
         name = arg1
-        console.warn(name + " " + val)
         if (!name == "" || !name == null) {
             //cname = cookiename
             cname = name;
@@ -64,7 +62,6 @@ function eCI(cmd, arg1 = "", arg2 = "") {
     function editCookie() {
         name = arg1
         val = arg2
-        console.warn(name + " " + val)
         if (!name == "" || !name == null) {
             if (!val == "" || !val == null) {
                 let usrcookie = getCookie(get = 1);
@@ -86,7 +83,6 @@ function eCI(cmd, arg1 = "", arg2 = "") {
     }
     function delCookie() {
         name = arg1
-        console.warn(name + " " + val)
         if (!name == "" || !name == null) {
             let usrcookie = getCookie(get = 1);
             if (usrcookie != "") {

@@ -36,9 +36,13 @@ Easy (add, edit, get, delete) cookies on your page. Only Used JS Code.
 ## Examples
 
 > easycookie.add("Test cookie", "Value cookie")
+
 > easycookie.edit("Test cookie", "New Value cookie")
+
 > easycookie.get("Test cookie")
+
 > easycookie.del("Test Cookie")
+
 > easycookie.ver() - Version Script
 
 

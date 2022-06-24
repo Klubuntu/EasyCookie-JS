@@ -1,4 +1,4 @@
-/* EasyCookie v2 [Rewrited] */
+/* EasyCookie v2.1 [Rewrited] */
 /* Created by Klubuntu */
 /* Source Code: https://github.com/Klubuntu/EasyCookieJS */
 
@@ -100,7 +100,7 @@ function eCI(cmd, arg1 = "", arg2 = "") {
 
     function version(){
         return(
-            msg + "Version 2.0 [Rewrited]" + "\n" + "Check new release on https://github.com/Klubuntu/EasyCookieJS"
+            msg + "Version 2.1 [Rewrited]" + "\n" + "Check new release on https://github.com/Klubuntu/EasyCookieJS"
         )
     }
 

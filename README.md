@@ -1,49 +1,43 @@
-# EasyCookieJS
-Easy (add, edit, get, delete) cookies on your page. Only Used JS Code.
+# EasyCookie.js
+Easy *add/edit/get/delete* cookies on your page. Only works for JS code.
 
-![image](https://user-images.githubusercontent.com/49614906/175548801-1ffed3fe-c399-4de8-bf27-b14e78d0fccb.png)
+![EasyCookie.js Schematic Usage](https://user-images.githubusercontent.com/49614906/222560884-edd153d4-fca3-473e-b629-86043b34dadb.png)
 
 
 ## Functions
-> **Create Cookie** - easycookie.add("*nameCookie*, *valueCookie*")
+| **Create Cookie** - ``easycookie.add(cookieName, cookieValue)``
 
-> **Edit Cookie** - easycookie.edit("*nameCookie*, *valueCookie*")
+| **Edit Cookie** - ``easycookie.edit(cookieName, cookieValue)``
 
-> **Get Cookie** - easycookie.get("*nameCookie*")
+| **Get Cookie** - ``easycookie.get(cookieName)``
 
-> **Delete Cookie** - easycookie.del("*nameCookie*")
-
-> **Version Script** - easycookie.ver()
+| **Delete Cookie** - ``easycookie.remove(cookieName)``
 
 
 ## Aliases
-> **Create Cookie** - easycookie.set("*nameCookie*")
+| **Create Cookie** - ``easycookie.create(cookieName, cookieValue)``
 
-> **Edit Cookie** - easycookie.change("*nameCookie*, *valueCookie*")
+| **Create Cookie** - ``easycookie.set(cookieName, cookieValue)``
 
-> **Get Cookie** - easycookie.check("*nameCookie*")
+| **Edit Cookie** - ``easycookie.change(cookieName, cookieValue)``
 
-> **Delete Cookie** - easycookie.rem("*nameCookie*")
+| **Get Cookie** - ``easycookie.find(cookieName)``
 
-> **Delete Cookie** - easycookie.remove("*nameCookie*")
+| **Delete Cookie** - ``easycookie.del(cookieName)``
 
-> **Delete Cookie** - easycookie.rm("*nameCookie*")
+| **Delete Cookie** - ``easycookie.delete(cookieName)``
 
-> **Version Script** - easycookie.version()
 
-> **Version Script** - easycookie.about()
 
 ## Examples
 
-> easycookie.add("Test cookie", "Value cookie")
+``easycookie.add("day", "today")``
 
-> easycookie.edit("Test cookie", "New Value cookie")
+``easycookie.edit("day", "yesterday")``
 
-> easycookie.get("Test cookie")
+``easycookie.get("day")``
 
-> easycookie.del("Test Cookie")
-
-> easycookie.ver() - Version Script
+``easycookie.del("day")``
 
 
-**Pull request are welcome**
+**Thanks for Support. Pull request are welcome**

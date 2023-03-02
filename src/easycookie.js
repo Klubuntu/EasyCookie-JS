@@ -1,7 +1,7 @@
-/* EasyCookie v3.1 [Rewrited Class Edition] */
+/* EasyCookie.js v3.1 [Rewrited Class Edition] */
 /* Changes: Added prefix for "easycookie" & add more aliases */
 /* Created by Klubuntu */
-/* Source Code: https://github.com/Klubuntu/EasyCookieJS */
+/* Source Code: https://github.com/Klubuntu/EasyCookie.js */
 
 const $prefix = '[EasyCookie] ';
 
